@@ -1,0 +1,37 @@
+{
+  "name": "AquaLife",
+  "short_name": "AquaLife",
+  "description": "AquaLife \u2014 a pixel-art life sim. Grow up, go to school, work shifts, build a crew, and live a whole life.",
+  "lang": "en",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "fullscreen",
+  "display_override": [
+    "fullscreen",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#171310",
+  "theme_color": "#1a120b",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
